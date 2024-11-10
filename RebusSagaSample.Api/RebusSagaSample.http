@@ -1,0 +1,9 @@
+@RebusSagaSample_HostAddress = http://localhost:5000/
+
+POST {{RebusSagaSample_HostAddress}}api/newsletters
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email" : "mugabo@yahoo.fr"
+}
